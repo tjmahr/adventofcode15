@@ -20,7 +20,8 @@ Imports:
     usethis,
     rstudioapi,
     rlang,
-    digest
+    digest,
+    stringr
 URL: https://github.com/tjmahr/adventofcode15
 BugReports: https://github.com/tjmahr/adventofcode15/issues
 Suggests: 
