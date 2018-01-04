@@ -241,9 +241,5 @@ is_just_number <- function(x) {
 }
 
 
-
-
 # A/B: Nonstandard evaluation, delayed evaluation using functions, simplifing
 # code by evaluating/inlining values
-
-

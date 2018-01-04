@@ -24,7 +24,6 @@ for (i in 1:200) {
 circuit_code2 <- circuit_to_r_script(x)
 circuit_env2 <- source_in_circuit_env(circuit_code2)
 
-
-stopifnot(circuit_env$a() == aoc15_solutions$day04a)
-stopifnot(circuit_env2$a() == aoc15_solutions$day04b)
+stopifnot(circuit_env$a() == aoc15_solutions$day07a)
+stopifnot(circuit_env2$a() == aoc15_solutions$day07b)
 
